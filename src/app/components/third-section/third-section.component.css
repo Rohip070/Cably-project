@@ -1,0 +1,143 @@
+.why-choose-us-container {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.left-section {
+    padding: 20px 0;
+  }
+  
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    /* margin: 0; */
+    line-height: 1.5;
+  }
+  
+  .lets-talk-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .lets-talk-btn:hover {
+    background: #f5f5f5;
+  }
+  
+  .arrow {
+    margin-left: 8px;
+  }
+
+
+.bigdiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.features-grid{
+    display: flex;
+    background-color: #FAFAFA;
+    width: 580px;
+    height: 80px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 88px;
+    padding-bottom: 40px;
+    margin: 20px;
+    gap: 100px;
+  }
+
+.flexgrid {
+    gap: 50px;
+    justify-content: space-between;
+    
+}
+
+
+
+  
+   /* .features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  } */
+  
+  /* .feature-card {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  
+  .icon-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-shield::before {
+    content: '🛡️';
+  }
+  
+  .icon-cube::before {
+    content: '📦';
+  }
+  
+  .icon-target::before {
+    content: '🎯';
+  }
+  
+  .icon-diamond::before {
+    content: '💎';
+  }
+  
+  .feature-content {
+    flex: 1;
+  }
+    */
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .why-choose-us-container {
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }
