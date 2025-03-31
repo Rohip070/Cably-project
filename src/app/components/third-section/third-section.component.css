@@ -7,7 +7,7 @@
 }
 
 .left-section {
-    padding: 20px 0;
+    padding: 32px 32px;
   }
   
   h2 {
@@ -29,7 +29,7 @@
     color: #333;
   }
   
-  p {
+  .words {
     color: #666;
     /* margin: 0; */
     line-height: 1.5;
@@ -65,17 +65,48 @@
 }
 
 .features-grid{
+  position: relative;
     display: flex;
     background-color: #FAFAFA;
     width: 580px;
-    height: 80px;
+    height: 50px;
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 88px;
     padding-bottom: 40px;
     margin: 20px;
-    gap: 100px;
+    border-radius: 16px;
   }
+
+
+.a {
+  position: absolute;
+  margin-left: 580px;
+  bottom: 48px;
+}
+
+.b {
+  position: absolute;
+  bottom: 55px;
+  left: 0px;
+  width: 80px;
+  width: 80px;
+}
+
+.c {
+  position: absolute;
+  margin-left: 575px;
+  bottom: 0px;
+}
+
+.d {
+  position: absolute;
+  top: 50px;
+  width: 80px;
+  width: 80px;
+  left: 0px;
+}
+
 
 .flexgrid {
     gap: 50px;
@@ -85,51 +116,7 @@
 
 
 
-  
-   /* .features-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  } */
-  
-  /* .feature-card {
-    display: flex;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    gap: 15px;
-    align-items: flex-start;
-  }
-  
-  .icon-container {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .icon-shield::before {
-    content: '🛡️';
-  }
-  
-  .icon-cube::before {
-    content: '📦';
-  }
-  
-  .icon-target::before {
-    content: '🎯';
-  }
-  
-  .icon-diamond::before {
-    content: '💎';
-  }
-  
-  .feature-content {
-    flex: 1;
-  }
-    */
+
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .why-choose-us-container {
